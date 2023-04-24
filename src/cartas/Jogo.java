@@ -15,5 +15,10 @@ public class Jogo {
 		String jogar = sc.next();
 
 		int soma = 0;
+
+		while (jogar.equals("sim") && soma <= 20) {
+			System.out.println("pedir carta? ");
+			String carta = sc.next();
+		}
 	}
 }
